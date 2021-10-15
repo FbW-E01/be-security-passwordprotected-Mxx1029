@@ -4,7 +4,7 @@ First create an API that takes in a message and saves that message. No matter wh
 
 Then you must secure the API with a password. Try out different ways to save the correct password. Don't commit the password. Don't commit node_modules. Also try different hashing algorithms for the password. There are multiple levels how to make it work; how far can you get?
 
-1. Level 1: password comes from request body
+1. Level 1: password comes from request body --- DONE!
 2. Level 2: password comes from request url (params)
 3. Level 3: password comes from request url (query)
 4. Level 4: password comes from custom header

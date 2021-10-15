@@ -1,0 +1,22 @@
+GET http://localhost:3234
+
+###
+
+POST http://localhost:3234
+Content-Type: application/json
+
+{
+    "message": "Hi",
+    "password": "Rattlesnake123!"
+}
+
+
+###
+
+POST http://localhost:3234/message
+Content-Type: application/json
+
+{
+    "message": "Hello",
+    "password": "Rattlesnake123!"
+}
